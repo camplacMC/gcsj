@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5fafe;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button_ok, .button_cancel {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button_ok {
+    background-color: #5cb85c;
+}
+
+.button_cancel {
+    background-color: #d9534f;
+}
+
+.table-bordered {
+    border-collapse: collapse;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+}
