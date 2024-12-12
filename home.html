@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>学生管理系统</title>
+<link
+	href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+	rel="stylesheet">
+<style>
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: url('image/school.jpg') no-repeat center center/cover;
+	font-family: 'Roboto', sans-serif;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	height: 100%; /* 确保内容容器占据整个视口高度 */
+	padding: 20px; /* 可选的，为了内容不紧贴边缘 */
+}
+.title {
+	color: #007BFF;
+	font-size: 2.5em;
+	margin-bottom: 20px;
+}
+.enter {
+	color: #DC3545;
+	font-size: 2em;
+	cursor: pointer;
+	transition: color 0.3s ease;
+}
+.enter:hover {
+	color: #C82333;
+}
+</style>
+</head>
+<body>
+	<div class="content">
+		<div class="title">
+			<h1>欢迎使用学生管理系统</h1>
+		</div>
+		<div class="enter" onclick="window.location.href='/student/login.jsp'">
+			<h1>点击进入</h1>
+		</div>
+	</div>
+</body>
+</html>
